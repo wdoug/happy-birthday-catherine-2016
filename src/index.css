@@ -7,3 +7,26 @@ body {
 	background-position: 50% 0;
 	height: 100vh;
 }
+
+.main {
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.main-content {
+  font-family: 'Tangerine', cursive;
+  font-size: 140px;
+  font-weight: 100;
+  text-shadow: 0 0 5px #fff;
+}
+
+@media (max-width: 600px) {
+  .main-content {
+    font-size: 72px;
+  }
+}
