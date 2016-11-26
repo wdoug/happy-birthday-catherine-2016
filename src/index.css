@@ -8,7 +8,7 @@ body {
 	height: 100vh;
 }
 
-.main {
+.Main-container {
   text-align: center;
   color: #fff;
   display: flex;
@@ -18,7 +18,7 @@ body {
   height: 100vh;
 }
 
-.main-content {
+.Main-message {
   font-family: 'Tangerine', cursive;
   font-size: 140px;
   font-weight: 100;
@@ -26,7 +26,14 @@ body {
 }
 
 @media (max-width: 600px) {
-  .main-content {
+  .Main-message {
     font-size: 72px;
   }
+}
+
+.dat-gui-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
 }
